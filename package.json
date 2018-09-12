@@ -1,0 +1,24 @@
+{
+  "name": "books_api",
+  "version": "0.0.1",
+  "description": "Store and manage data about your books",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "mocha --exit"
+  },
+  "keywords": [
+    "books",
+    "node",
+    "es6",
+    "express"
+  ],
+  "author": "Vincent Ramdhanie",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.14",
+    "nodemon": "^1.18.4"
+  }
+}
